@@ -1,0 +1,37 @@
+/* top head section for name and tabs */
+header {
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#ffb347 ;
+    color:  #28282B;
+
+}
+/* location header for my name */
+header h1{
+    display: inline-block;
+    font-size: 32px;
+}
+/* links to sections */
+header nav{
+    padding-top: 0px;
+    margin-right: 20px;
+    float: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+
+}
+/* changed format from rows to collumns */
+header nav ul{
+    list-style-type: none;
+    
+}
+/* margin between links */
+header nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+/* color of link tabs, also removed underline from text */
+a {
+    color: #28282B;
+    text-decoration: none;
+}
