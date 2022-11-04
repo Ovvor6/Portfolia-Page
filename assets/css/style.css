@@ -1,28 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
 /* top head section for name and tabs */
 header {
-    padding: 10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:#ffb347 ;
-    color:  #28282B;
+
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(36, 12, 132);
+    color:  white;
 
 }
 /* location header for my name */
 header h1{
     display: inline-block;
-    font-size: 32px;
+    font-size: 62px;
 }
 /* links to sections */
 header nav{
     padding-top: 0px;
     margin-right: 20px;
     float: right;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
+    
 
 }
 /* changed format from rows to collumns */
 header nav ul{
     list-style-type: none;
+    align-items: center;
+    display: flex;
     
 }
 /* margin between links */
@@ -32,6 +40,99 @@ header nav ul li{
 }
 /* color of link tabs, also removed underline from text */
 a {
-    color: #28282B;
+    color: whitesmoke;
     text-decoration: none;
+}
+
+body{
+    background-color: lightgray;
+}
+/* info */
+.aboutMe{
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+.about{
+
+    height: 500px;
+    width: 400px;
+    margin-left: 30px;
+}
+.about > p {
+    font-size: 30px;
+
+}
+
+.projects{
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.headshot{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+
+}
+.headshot > img{
+    height: 500px;
+    width: 400px;
+}
+
+.first-image{
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.second-image{
+    height: 30%;
+    width: 30%;
+    margin: 10px;
+
+
+}
+.second-image-lr{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contact-information{
+    margin: 5px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.email{
+    font-size: 30px;
+    display: block;
+    margin: 15px;
+    color: purple;
+}
+.github{
+
+    font-size: 30px;
+    display: block;
+    color: purple; 
+    margin: 15px;
+
+}
+.links{
+    display: flex;
+    justify-content: center;
+
 }
